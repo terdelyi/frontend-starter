@@ -1,0 +1,4 @@
+node_modules/
+public/assets/
+mix-manifest.json
+package-lock.json
