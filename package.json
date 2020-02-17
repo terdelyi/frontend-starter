@@ -1,8 +1,11 @@
 {
-  "name": "landing",
+  "name": "frontend-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terdelyi/frontend-starter"
+  },
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Very simple starter for frontend projects with Laravel Mix and Tailwind CSS",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -11,16 +14,20 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "frontend",
+    "starter",
+    "bootstrap"
+  ],
+  "author": "Tamas Erdelyi <terdelyi@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "laravel-mix": "^5.0.0",
-    "laravel-mix-purgecss": "^4.1.0",
-    "tailwindcss": "^1.1.2"
+    "laravel-mix": "^5.0",
+    "laravel-mix-purgecss": "^4.1",
+    "tailwindcss": "^1.2"
   },
   "devDependencies": {
-    "cross-env": "^6.0.3",
+    "cross-env": "^7.0",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.23.0",
     "sass-loader": "^8.0.0",
