@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/terdelyi/frontend-starter"
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Simple starter for front-end projects with Laravel Mix and Tailwind CSS",
   "scripts": {
     "dev": "npm run development",
@@ -21,13 +21,15 @@
   "author": "Tamas Erdelyi <terdelyi@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "laravel-mix": "^5.0.4",
-    "tailwindcss": "^1.6"
+    "autoprefixer": "^10.1.0",
+    "laravel-mix": "^5.0.9",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
-    "resolve-url-loader": "^3.1.1",
-    "sass": "^1.26.10",
-    "sass-loader": "^9.0.2"
+    "cross-env": "^7.0.3",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
   }
 }
