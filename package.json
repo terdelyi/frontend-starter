@@ -23,7 +23,7 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "laravel-mix": "^5.0.9",
-    "postcss": "^8.2.1",
+    "postcss": "^8.2.10",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
